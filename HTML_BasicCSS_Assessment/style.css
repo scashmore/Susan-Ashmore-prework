@@ -1,6 +1,42 @@
+
 body {
-  margin: 0;
-  line-height: 1.5;
+  margin: 1;
+  line-height: 1;
   text-transform: uppercase;
+  background-color: #80cdf0;
+  font-family: Helvetica;
+  text-decoration: none;
+  font-weight: bold;
+  }
+  
+
+h2 {text-align: letf;
+    line-height: 1.5;
+    color: white;
+    font-size: 15px;
 }
+
+h4 {text-align: center;
+    color: black;
+    font-size: 10px;
+}
+
+h1 {text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h5 {text-align: center;
+    line-height: 2;
+    color: white;
+    font-size: 10px;
+}
+
+div {margin: auto;
+     height: 20px;
+     width: 100px;
+     border: 2px solid white;
+}
+
+
 
