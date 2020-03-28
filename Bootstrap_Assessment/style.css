@@ -1,0 +1,49 @@
+
+body {
+  margin: 1;
+  line-height: 1;
+  text-transform: uppercase;
+  background-color: #80cdf0;
+  font-family: Helvetica;
+  text-decoration: none;
+  font-weight: bold;
+  }
+  
+ p {text-align: center;
+    color: white;
+    font-size: 8px;
+}
+
+
+h2 {text-align: letf;
+    line-height: 1.5;
+    color: white;
+    font-size: 15px;
+}
+
+h4 {text-align: center;
+    color: black;
+    font-size: 10px;
+}
+
+h1 {text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h5 {text-align: center;
+    line-height: 2;
+    color: white;
+    font-size: 10px;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.active:focus {
+  background-color: #80cdf0 !important;
+}
+
+.jumbotron {
+  background: none
+}
