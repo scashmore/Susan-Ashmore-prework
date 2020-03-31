@@ -1,3 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+
 body {
-    background-image: url('C:/Users/scash/Desktop/web-class/Susan-Ashmore-prework/Module-2_Assessment/assests/images/Nintendo_Switch.jpg');
+    background-color:grey;
+    margin: 0;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+h1 {
+    font-size: 30px;
+    height: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Yeon Sung', cursive;
+}
+h2 {
+    font-size: 25px;
+    height: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Yeon Sung', cursive;
+}
+h3 {
+    font-size: 25px;
+    height: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Yeon Sung', cursive;
+
+}
+.box1 {
+    background-color: blue;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 15px;
+}
+.box2 {
+    background-color: blue;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 15px;
+}
+.box3{
+    
+    color: black;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 20px;
+}
+.box4 {
+    background-color: red;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 15px;
+}
+.box5 {
+    background-color: red;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 15px;
 }
