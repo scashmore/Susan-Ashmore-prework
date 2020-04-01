@@ -12,8 +12,6 @@ var underright =[];
 var wrongletters = [];
 //Counter
 var correctguesscount = 0;
-var wincount = 0;
-var losecount = 0;
 var guessesleft = 10;
 function reset()
 {
@@ -63,8 +61,6 @@ function start()
 //HTML
 document.getElementById('underscore').innerHTML = underright.join(' ');
 document.getElementById('lives').innerHTML = guessesleft;
-document.getElementById('wins').innerHTML = wincount;
-document.getElementById('fails').innerHTML = losecount;
 document.getElementById('wrongletters').innerHTML = wrongletters;
 
 function compareletters(userKey)
@@ -100,7 +96,6 @@ function winlose()
     if(correctguesscount === underscores)
     {
     
-    document.getElementById('wins').innerHTML = wincount
     alert('Congradulations! You succeeded!');
     //display image when we get  there....
     reset();
@@ -108,8 +103,6 @@ function winlose()
     
     else if(guessesleft === 0)
     {
-        losecount++;
-        document.getElementById('fails').innerHTML = losecount;
         alert('You died');
         reset();
 
