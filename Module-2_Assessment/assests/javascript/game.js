@@ -101,7 +101,7 @@ function winlose()
     {
     
     document.getElementById('wins').innerHTML = wincount
-    alrt('Congradulations! You succeed!');
+    alert('Congradulations! You succeeded!');
     //display image when we get  there....
     reset();
     }

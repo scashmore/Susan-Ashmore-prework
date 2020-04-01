@@ -31,12 +31,12 @@ h3 {
 
 }
 .box1 {
-    background-color: blue;
+    background-color: rgb(59, 173, 218);
     font-family: 'Yeon Sung', cursive;
     font-size: 15px;
 }
 .box2 {
-    background-color: blue;
+    background-color: rgb(59, 173, 218);
     font-family: 'Yeon Sung', cursive;
     font-size: 15px;
 }
@@ -47,12 +47,12 @@ h3 {
     font-size: 20px;
 }
 .box4 {
-    background-color: red;
+    background-color: rgb(212, 35, 35);
     font-family: 'Yeon Sung', cursive;
     font-size: 15px;
 }
 .box5 {
-    background-color: red;
+    background-color: rgb(212, 35, 35);
     font-family: 'Yeon Sung', cursive;
     font-size: 15px;
 }
