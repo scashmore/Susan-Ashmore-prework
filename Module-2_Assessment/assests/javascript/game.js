@@ -1,7 +1,7 @@
 //letters
 var letter = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 //Nintendo Switch Titles and Images
-var titles = ['zleda', 'odyssey', 'animalcrossing', 'mariokart', 'luigismansion', 'pokemon', 'splatoon', 'smashbros', 'xenoblade', 'yoshiscraftedworld', 'hollowknight', 'kirby', 'donkeykong', 'fireemblem'];
+var titles = ['zleda', 'odyssey', 'animalcrossing', 'mariokart', 'luigismansion', 'pokemon', 'splatoon', 'smashbros', 'xenoblade', 'yoshi', 'hollowknight', 'kirby', 'donkeykong', 'fireemblem'];
 //chosen title
 var chosentitle = "";
 var chosenletters = [];
@@ -101,7 +101,7 @@ function winlose()
     {
     
     document.getElementById('wins').innerHTML = wincount
-    alert('Congradulations! You succeed!');
+    alrt('Congradulations! You succeed!');
     //display image when we get  there....
     reset();
     }
